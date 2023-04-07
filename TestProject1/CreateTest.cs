@@ -1,16 +1,15 @@
 using Akka.Actor.Setup;
 using Xunit.Abstractions;
 
-namespace TestProject1
+namespace TestProject1;
+
+public class CreateTest : SpecBase
 {
-    public class CreateTest : SpecBase
+    public CreateTest(ITestOutputHelper output) : base(output) { }
+
+    [Fact]
+    public void Test1()
     {
-        public CreateTest(ITestOutputHelper output) : base(output) { }
 
-        [Fact]
-        public void Test1()
-        {
-
-        }
     }
 }

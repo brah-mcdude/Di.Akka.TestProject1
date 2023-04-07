@@ -1,5 +1,4 @@
-﻿
-namespace TestProject1.Di;
+﻿namespace TestProject1.Di;
 
 abstract public class ServiceProviderBase
 {

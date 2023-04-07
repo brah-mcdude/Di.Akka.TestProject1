@@ -1,15 +1,14 @@
 using Xunit.Abstractions;
 
-namespace TestProject1
+namespace TestProject1;
+
+public class ConnectTest : Di.DiSpecBase
 {
-    public class ConnectTest : Di.DiSpecBase
+    public ConnectTest(ITestOutputHelper output) : base(output) { }
+
+    [Fact]
+    public void Test1()
     {
-        public ConnectTest(ITestOutputHelper output) : base(output) { }
 
-        [Fact]
-        public void Test1()
-        {
-
-        }
     }
 }
